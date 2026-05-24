@@ -1,0 +1,35 @@
+.DS_Store
+
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.env.*
+
+# Generated training artifacts
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+runs/
+outputs/
+artifacts/
+plots/
+reports/generated/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
