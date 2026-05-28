@@ -19,7 +19,6 @@ env/
 
 # Generated training artifacts
 *.pt
-*.pth
 *.ckpt
 models/
 checkpoints/
